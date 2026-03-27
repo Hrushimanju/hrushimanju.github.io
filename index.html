@@ -88,6 +88,11 @@ section{padding:5rem 2rem}
 /* FOOTER */
 footer{border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--text3);font-size:.8rem}
 
+/* PROJECT LINKS */
+.project-links{padding:1rem 2rem 1.5rem;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:.75rem}
+.project-link{display:inline-flex;align-items:center;gap:.5rem;background:rgba(45,127,249,0.1);border:1px solid var(--accent2);color:var(--accent);padding:.45rem 1rem;border-radius:6px;font-size:.85rem;font-weight:500;text-decoration:none;transition:all .2s}
+.project-link:hover{background:rgba(45,127,249,0.25);border-color:var(--accent)}
+
 /* RESPONSIVE */
 @media(max-width:768px){
 .hero .inner{grid-template-columns:1fr}
@@ -200,6 +205,9 @@ nav ul{display:none}
 <span class="skill-tag">Power Management</span>
 <span class="skill-tag">Electromagnet Control</span>
 </div>
+<div class="project-links">
+<a href="https://github.com/Hrushimanju/DATOM" target="_blank" class="project-link">&#128279; GitHub &mdash; DATOM</a>
+</div>
 </div>
 
 <!-- PROJECT 2: CFD -->
@@ -281,6 +289,38 @@ nav ul{display:none}
 <span class="skill-tag">Assembly Modelling</span>
 <span class="skill-tag">2D Technical Drawings</span>
 <span class="skill-tag">Bill of Materials</span>
+</div>
+</div>
+
+<!-- PROJECT 4: PREDICTIVE MAINTENANCE -->
+<div class="project">
+<div class="project-header">
+<div>
+<h3>Predictive Maintenance Monitor</h3>
+<p style="color:var(--text2);font-size:.9rem;margin-top:.35rem">Self-Funded Engineering Portfolio Project</p>
+</div>
+<span class="grade" style="background:rgba(245,158,11,0.1);color:var(--amber);">&#128295; In Progress</span>
+</div>
+<div class="project-meta">
+<span>&#9881; Industrial IoT / Embedded Systems</span>
+<span>&#128197; 2025</span>
+<span>&#128205; Self-funded &mdash; Liverpool</span>
+</div>
+<div class="project-desc">
+<p>Low-cost vibration anomaly detection system targeting SME manufacturers who cannot justify enterprise predictive maintenance solutions. Built around MPU6050 accelerometer + Arduino Nano, streaming real-time FFT data to a Python dashboard. Addresses a real gap: enterprise systems cost thousands; this prototype demonstrates the same core principle under &pound;50. Directly extends unresolved DATOM hardware noise problem &mdash; applying frequency-domain analysis to distinguish actuator wear signatures from background vibration.</p>
+</div>
+<div class="project-skills">
+<span class="skill-tag">Arduino C++</span>
+<span class="skill-tag">Python</span>
+<span class="skill-tag">MPU6050 / I2C</span>
+<span class="skill-tag">FFT Vibration Analysis</span>
+<span class="skill-tag">Serial Communication</span>
+<span class="skill-tag">Matplotlib Dashboard</span>
+<span class="skill-tag">L9110S Motor Driver</span>
+<span class="skill-tag">I2C LCD Display</span>
+</div>
+<div class="project-links">
+<a href="https://github.com/Hrushimanju/predictive-maintenance-monitor" target="_blank" class="project-link">&#128279; GitHub &mdash; Predictive Maintenance Monitor</a>
 </div>
 </div>
 
